@@ -8,3 +8,13 @@ services:
       - .:/app
       - /app/node_modules
     command: npm run dev
+# version: "3.8"
+
+# services:
+#   app:
+#     build: .
+#     ports:
+#       - "4173:4173"
+#     volumes:
+#       - .:/app
+#     restart: unless-stopped
